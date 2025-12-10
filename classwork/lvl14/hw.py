@@ -22,8 +22,8 @@
 #start , stop , step:  start - პირველი რიცხვი, რომლითაც დაიწყება;  stop - ბოლო რიცხვი, რომლითაც დამთვრდება მარა ეს რიიცხვი არ შედის ამ რიგში; step განსახზღვრავს რამდენი ნაბიჯი უნდა იყოს რიცხვებს შორის დაშორება 
 
 #4
-for z in range(100, 201):
-    print(z)
+for i in range(100, 201):
+    print(i)
 
 #5
 for i in range(20, 30, 3):
@@ -34,7 +34,7 @@ for i in range(0, 21, 2):
     print(i)
 
 #7
-total = 0   # ჯამი
+total = 0   
 
 for i in range(5):
     num = float(input("Enter The Num: "))
