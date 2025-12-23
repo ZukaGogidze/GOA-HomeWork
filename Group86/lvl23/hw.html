@@ -1,0 +1,58 @@
+<!-- 2) შექმენით საიტი, სადაც დაამატებთ რეგისტრაციის ფორმას, მომხმარებელს უნდა შეეძლოს სახელის, გვარის, ასაკის და გენდერის შემოყვანა.
+
+დაამატეთ დღეს ნასწავლი ჩამოსაშლელი მენიუ და მომხმარებელს აარჩევინეთ მისი ქვეყანა(მინიმუმ 10 არჩევანი მაინც უნდა ჰქონდეს)
+
+ასევე მომხმარებელს არ უნდა შეეძლოს რეგისტრაციის გავლა იქამდე სანამ არ დაეთანხმება საიტის გამოყენების პოლიტიკას და მის წესებს.
+
+გამოიყენეთ ფორმებთან საუმშაოდ ყველა ნასწავლი ატრიბუტი -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="n1">name</label>
+        <input type="text" name="" id="n1">
+
+        <label for="l1">Last Name</label>
+        <input type="text" name="" id="l1">
+
+        <label for="a1">age</label>
+        <input type="number" name="" id="a1">
+
+        <label>Gender</label>
+        <label for="m1">male</label>
+        <input type="radio" name="male" id="m1">
+
+        <label for="m1">Famele</label>
+        <input type="radio" name="Famele" id="m1">
+
+        <label for="country">Choose your country</label>
+        <select name="Country" id="country" required>
+            <option value="">Choose Your Country</option>
+            <option value="Georgia">Georgia</option>
+            <option value="France">France</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Azerbaijan">Azerbaijan</option>
+            <option value="Armenia">Armenia</option>
+            <option value="America">America</option>
+            <option value="UK">UK</option>
+            <option value="Poland">Poland</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+        </select>
+        <br><br>
+        <label for="pr1">privacy and police</label>
+        <input type="checkbox" name="" id="pr1">
+
+        <input type="submit" name="" id="">
+    </form>
+</body>
+</html>

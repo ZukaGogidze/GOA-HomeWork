@@ -1,0 +1,60 @@
+<!-- 1) შექმენით ფორმა, სადაც მომხარებელს შემოატანინებთ სახელს, აარჩევინებთ მის ფავორიტ ფერს(ამისთვის შესაბამისი ტიპის input-ი დაგჭირდებათ), ემაილს, პაროლს, მის დაბადების თარიღს, გენდერს და ასევე გამოუტანთ ერთ checkbox-ს, რომლითაც ის დაეთანხმება საიტის გამოყენების პოლიტკას და წესებს.
+
+თითოეულ input-ს გაუწერეთ ეტიკეტი და გამოიყენეთ ყველა მადგანისთვის ნასწავლი ატრიბუტები -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>registration form ></form></title>
+</head>
+<body>
+    <form>
+        <label for="n1">First Name:</label><br>
+        <input type="text" id="n1" name="name" placeholder="Enter your first name" required>
+        <br><br>
+
+        <label for="c1">Choose your favorite color</label><br>
+        <input type="color" name="" id="c1">
+        <br><br>
+
+        <label for="l1">Last Name:</label><br>
+        <input type="text" id="l1" name="lastname" placeholder="Enter your last name">
+        <br><br>
+
+        <label for="e1">Email:</label><br>
+        <input type="email" id="e1" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="p1">Password:</label><br>
+        <input type="password" id="p1" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="m1 name="gender" value="male" required>
+        <label for="m1">Male</label>
+
+        <input type="radio" id="f1" name="gender" value="female" required>
+        <label for="f1">Female</label>
+        <br><br>
+
+        <label for="c2">Enter privacy and policy</label><br>
+        <input type="checkbox" id="c2">
+        <br><br>
+
+        <label for="s1">Choose Your country</label><br>
+        <select id="s1">
+            <option>Georgia</option>
+            <option>France</option>
+            <option>America</option>
+        </select>
+        <br><br> 
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
