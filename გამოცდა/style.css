@@ -1,0 +1,21 @@
+h1 {
+    color: purple;
+    background-color: yellow;
+    font-size: 35px;
+    padding: 10px;
+}
+
+p {
+    color: green;
+    background-color: gray;
+    font-size: 20px;
+    padding: 5px;
+}
+
+div {
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+}

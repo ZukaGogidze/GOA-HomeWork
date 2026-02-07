@@ -1,0 +1,40 @@
+/* 
+Style inheritance ნიშნავს იმას, რომ მშობელი ელემენტის სტილები
+ავტომატურად გადაეცემა მის შვილ ელემენტებს.
+
+მაგალითად:
+თუ div-ს აქვს ტექსტის ფერი ან ფონტის ზომა,
+მის შიგნით მყოფი p, span, h1 და სხვა ტექსტური ელემენტები
+ამ სტილს მემკვიდრეობით მიიღებენ.
+
+ყველა CSS property არ არის მემკვიდრეობითი.
+მაგ: color და font-family მემკვიდრეობითია,
+border და margin — არა.
+*/
+
+
+.parent {
+    color: red;
+}
+
+.box {
+    font-size: 24px;
+}
+
+.routine {
+    border: 3px solid black;            
+    background: linear-gradient(to right, #4facfe, #00f2fe); 
+    color: white;                         
+    text-align: center;                  
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;                      
+}
+
+.title i {
+    color: red;               
+    background-color: yellow; 
+}
+
+
+

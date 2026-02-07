@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background: blanchedalmond;
+}
+
+nav {
+    background: black;
+    padding: 10px;
+}
+
+na a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;    
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+}
+
+/* .prodcts-list { */
+    /* display: flex;
+    gap: 20px;
+    flex-direction: row;
+} */
+
+.product {
+    background-color: white;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+}
+
+.price  {
+    color: green;
+    font-weight: bold;
+}
+
+/* main {
+   display: flex;
+   flex-direction: row;
+} */
+
+/* section {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .idk {
+        display: flex;
+    flex-direction: row;
+} */
+
+.products-list {
+        display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

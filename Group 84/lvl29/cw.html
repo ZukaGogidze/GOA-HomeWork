@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Contact</th>
+  </tr>
+  <tr id="row1">
+    <td rowspan="2">Nika</td>
+    <td>Email</td>
+    <td>nika@mail.com</td>
+  </tr>
+  <tr id="row2">
+    <td>Phone</td>
+    <td>555-123</td>
+  </tr>
+</table>
+
+<button onclick="swap()">Swap</button>
+
+<script>
+function swap() {
+  let row1 = document.getElementById("row1");
+  let row2 = document.getElementById("row2");
+
+  let temp1 = row1.cells[1].innerHTML;
+  let temp2 = row1.cells[2].innerHTML;
+
+  row1.cells[1].innerHTML = row2.cells[0].innerHTML;
+  row1.cells[2].innerHTML = row2.cells[1].innerHTML;
+
+  row2.cells[0].innerHTML = temp1;
+  row2.cells[1].innerHTML = temp2;
+}
+</script>
+
+</body>
+</html>
