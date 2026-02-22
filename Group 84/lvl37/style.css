@@ -1,0 +1,63 @@
+/* 
+class selector — გამოიყენება ერთზე მეტი HTML ელემენტის გასასტილებლად.
+მას ერთნაირი სახელი შეიძლება ჰქონდეს ბევრ ელემენტს.
+CSS-ში იწერება წერტილით (.)
+*/
+
+/* 
+id selector — გამოიყენება მხოლოდ ერთი, უნიკალური HTML ელემენტის გასასტილებლად.
+ერთ გვერდზე ერთი და იგივე id მეორედ არ უნდა განმეორდეს.
+CSS-ში იწერება ჰეშით (#)
+*/
+
+
+/* 2 */
+
+
+/* 
+class selector:
+- შეიძლება მიენიჭოს ბევრ ელემენტს
+- ნაკლები პრიორიტეტი აქვს
+- იწერება .className
+
+id selector:
+- უნიკალურია, ერთ ელემენტზე გამოიყენება
+- უფრო მაღალი პრიორიტეტი აქვს
+- იწერება #idName
+*/
+
+
+
+
+h1 {
+  color: black;
+  background-color: lightgray;
+}
+
+.group {
+  color: white;
+  background-color: blue;
+}
+
+#unique {
+  color: yellow;
+  background-color: red;
+}
+
+
+div {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+}
+
+.box {
+  background-color: green;
+  border: 2px solid black;
+}
+
+#special {
+  background-color: orange;
+  border-radius: 15px;
+}
