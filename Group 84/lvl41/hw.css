@@ -1,0 +1,27 @@
+/* Dimensions ნიშნავს ელემენტის ზომას */
+
+/* ერთეულები:
+px - პიქსელი
+% - პროცენტი
+em - დამოკიდებულია parent-ზე
+rem - დამოკიდებულია root-ზე
+*/
+
+
+.box1 {
+    background-color: rgb(255,0,0);
+    width: 100px;
+    height: 100px;
+}
+
+.box2 {
+    background-color: rgb(0,255,0);
+    width: 150px;
+    height: 150px;
+}
+
+.box3 {
+    background-color: rgb(0,0,255);
+    width: 200px;
+    height: 200px;
+}

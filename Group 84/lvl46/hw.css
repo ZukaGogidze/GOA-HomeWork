@@ -1,0 +1,91 @@
+.gfg-container {
+  text-align: center;
+  font-family: sans-serif;
+}
+.gfg-title { color: Green; }
+.gfg-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+.gfg-table th, .gfg-table td {
+  border: 1px solid Gray;
+  padding: 10px;
+}
+.gfg-table th {
+  background-color: LightGray;
+}
+
+
+
+.product-table {
+  width: 100%;
+  border-spacing: 10px;
+  font-family: sans-serif;
+}
+.product-table th {
+  background-color: LimeGreen;
+  color: White;
+  padding: 15px;
+  border-radius: 8px;
+}
+.product-table td {
+  background-color: HoneyDew;
+  border: 1px solid Silver;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+
+
+.leader-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.leader-table thead tr {
+  background-color: Teal;
+  color: White;
+}
+.leader-table th, .leader-table td {
+  padding: 15px;
+  text-align: left;
+}
+.leader-table tbody tr {
+  border-bottom: 1px solid LightGray;
+}
+.leader-table tbody tr:nth-of-type(even) {
+  background-color: WhiteSmoke;
+}
+.active-row {
+  color: Teal;
+  font-weight: bold;
+}
+
+
+.leader-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.leader-table thead tr {
+  background-color: Teal;
+  color: White;
+}
+.leader-table th, .leader-table td {
+  padding: 15px;
+  text-align: left;
+}
+.leader-table tbody tr {
+  border-bottom: 1px solid LightGray;
+}
+.leader-table tbody tr:nth-of-type(even) {
+  background-color: WhiteSmoke;
+}
+.active-row {
+  color: Teal;
+  font-weight: bold;
+}

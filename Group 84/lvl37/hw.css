@@ -1,0 +1,52 @@
+/* ID selector (#id)
+- გამოიყენება ერთ უნიკალურ ელემენტზე
+- ერთ გვერდზე ერთი id უნდა იყოს უნიკალური
+- იწერება # ნიშნით
+*/
+
+#myButton {
+    color: white;
+    background-color: red;
+}
+
+/* CLASS selector (.class)
+- გამოიყენება მრავალ ელემენტზე
+- ერთნაირი სტილის გასაზიარებლად
+- იწერება . ნიშნით
+*/
+
+.myButtons {
+    color: black;
+    background-color: yellow;
+}
+
+
+
+
+/* tag selector - ყველა button */
+button {
+    color: white;
+    background-color: black;
+}
+
+/* class selector - პირველი 3 */
+.group {
+    background-color: green;
+    color: yellow;
+}
+
+/* id selector - 4-ე */
+#unique {
+    background-color: red;
+    color: white;
+}
+
+
+
+#title {
+    color: blue;
+}
+
+.text {
+    color: green;
+}

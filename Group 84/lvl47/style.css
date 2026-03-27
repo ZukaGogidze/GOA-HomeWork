@@ -1,0 +1,47 @@
+.simple-list, .sub {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.simple-list li {
+  margin-bottom: 10px;
+}
+
+.num {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: SkyBlue; 
+  color: Black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  border: 2px solid White;
+}
+
+.txt {
+  display: inline-block;
+  background-color: LightGray; 
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-left: -15px; 
+}
+
+.sub .num {
+  background-color: LightBlue;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.sub .txt {
+  background-color: Gainsboro; 
+  padding: 5px 15px;
+}

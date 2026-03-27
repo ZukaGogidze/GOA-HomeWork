@@ -1,0 +1,68 @@
+.pink-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+.pink-table th, .pink-table td {
+  border: 1px solid Black;
+  padding: 12px;
+  text-align: left;
+}
+.pink-table tr:nth-child(even) {
+  background-color: Violet;
+}
+
+
+.get-in-touch {
+  max-width: 500px;
+  margin: auto;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.get-in-touch input, .get-in-touch textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 20px 0;
+  border: 1px solid LightGray;
+  border-radius: 5px;
+}
+.get-in-touch button {
+  background-color: MediumBlue;
+  color: White;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.colorlib-container {
+  background-color: ForestGreen;
+  padding: 50px;
+  text-align: center;
+}
+.colorlib-card {
+  background-color: White;
+  padding: 30px;
+  display: inline-block;
+  width: 350px;
+  font-family: sans-serif;
+  text-align: left;
+}
+.colorlib-card input, .colorlib-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid LightGray;
+  box-sizing: border-box; 
+}
+.colorlib-card button {
+  background-color: LimeGreen;
+  color: White;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+}

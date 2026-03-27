@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.sport {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.products {
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

@@ -1,0 +1,14 @@
+/* color - ტექსტის ფერი */
+p {
+    color: red;
+}
+
+/* background-color - ფონის ფერი */
+div {
+    background-color: blue;
+}
+
+/* font-size - ტექსტის ზომა */
+h1 {
+    font-size: 30px;
+}
