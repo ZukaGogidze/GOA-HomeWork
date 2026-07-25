@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: lightblue; 
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 700px; 
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px 12px;
+    flex-grow: 1; 
+    margin-right: 20px;
+    gap: 10px; 
+}
+
+.search-icon {
+    color: lightblue;
+    font-size: 16px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    color: black;
+    background-color: transparent;
+}
+
+.search-box input::placeholder {
+    color: grey;
+}
+
+.damxuravi {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2;
+}

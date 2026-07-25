@@ -1,0 +1,5 @@
+body { background-color: white; }
+@media (max-width: 480px) { body { background-color: lightpink; } }
+@media (min-width: 481px) and (max-width: 768px) { body { background-color: lightblue; } }
+@media (min-width: 769px) and (max-width: 1200px) { body { background-color: lightgreen; } }
+@media (min-width: 1201px) { body { background-color: lightgoldenrodyellow; } }

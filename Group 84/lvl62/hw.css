@@ -1,0 +1,20 @@
+.grid-area-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        "d a f"
+        "e b c";
+    gap: 15px;
+}
+.box-d { grid-area: d; background: #ff4d4d; }
+.box-a { grid-area: a; background: #4da6ff; }
+.box-f { grid-area: f; background: #5cd65c; }
+.box-e { grid-area: e; background: #ffb366; }
+.box-b { grid-area: b; background: #cc99ff; }
+.box-c { grid-area: c; background: #ff99cc; }
+.grid-area-container div {
+    padding: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}

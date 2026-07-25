@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#red {
+    background-color: red;
+    z-index: 2;
+    transform: translate(-10px, -40px);
+}
+
+#blue {
+    background-color: blue;
+    z-index: 3;
+    transform: translate(70px, -10px);
+}
+
+#purple {
+    background-color: purple;
+    z-index: 1;
+    transform: translate(-40px, 50px);
+}

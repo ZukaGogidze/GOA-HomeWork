@@ -1,0 +1,23 @@
+
+.transform-box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: transform 0.5s;
+}
+.transform-box:hover {
+    transform: translate(30px, 10px) scale(1.2) rotate(45deg);
+}
+.transition-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: background-color, width;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+.transition-box:hover {
+    background-color: green;
+    width: 180px;
+}

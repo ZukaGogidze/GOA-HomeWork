@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: Snow;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: Black;
+    color: White;
+    width: 100%;
+    max-width: 380px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.avatar-container {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.location {
+    color: GreenYellow;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bio {
+    color: Silver;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.links-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.link-btn {
+    display: block;
+    background-color: DimGray;
+    color: White;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.link-btn:hover {
+    background-color: GreenYellow;
+    color: Black;
+}

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#cont {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.child {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+
+@media (max-width: 400px) {
+    #cont {
+        width: 100%;
+        background-color: purple;
+        flex-direction: column;
+    }
+}

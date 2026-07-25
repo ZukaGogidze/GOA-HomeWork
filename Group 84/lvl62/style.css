@@ -1,0 +1,28 @@
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: #4a76e8;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background-color: #e0bb82;
+  border-radius: 50%;
+  
+  
+  transition-property: transform;      
+  transition-duration: 5s;            
+  transition-timing-function: ease-in; 
+  transition-delay: 5s;                
+}
+
+.circle.move-right {
+  transform: translateX(230px);
+}

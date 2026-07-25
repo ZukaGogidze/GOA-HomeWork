@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 20px;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 8px;
+}
+
+.box-translate:hover  {
+  background-color: orange;
+  transform: translate(50px, 30px);
+}
+
+.box-scale:hover  {
+  background-color: cyan;
+  transform: scale(1.5);
+}
+
+.box-skew:hover  {
+  background-color: red;
+  transform: skew(20deg, 10deg);
+}
+
+.box-rotate:hover {
+  background-color: purple;
+  transform: rotate(45deg);
+}

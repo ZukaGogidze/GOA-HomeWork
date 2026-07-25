@@ -1,0 +1,22 @@
+.page-layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    height: 100vh;
+    gap: 10px;
+}
+.header { grid-area: header; background: red; }
+.sidebar { grid-area: sidebar; background: yellow; }
+.main { grid-area: main; background: green; }
+.footer { grid-area: footer; background: blue; }
+.page-layout > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}

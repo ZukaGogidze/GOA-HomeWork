@@ -1,0 +1,10 @@
+/* 1) Box Model: Content, Padding, Border, Margin */
+
+/* 2) Margin და Padding მაგალითი */
+.box-example {
+    width: 300px;
+    height: 200px;
+    padding: 20px; 
+    border: 2px solid black;
+    margin: 40px; 
+}
